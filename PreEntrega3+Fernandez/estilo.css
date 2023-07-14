@@ -1,0 +1,23 @@
+header {
+    background-color: darkred;
+    height: 100px;
+}
+
+body {
+    background-image: url(fondoMenu3.jpg);
+}
+
+.card {
+    display: block;
+    float: left;
+}
+
+.titulo2 {
+    margin-left: 10px;
+}
+
+#form-container {
+    background-color: rgb(190, 187, 187);
+    
+}
+

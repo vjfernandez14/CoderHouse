@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <link href="estilo.css" rel="stylesheet">
+    </head>
+    <body>
+                     <!--BARRA DE NAVEGACION BOOTSTRAP -->
+
+        <nav class="navbar bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">MenAPP</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Carta Digital</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Administrador</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+                        <!-- Carta digital (mostror platos)-->
+          
+        <div id="platos-container" class="col-md-12 mb-4"> </div>
+        <div id="form-container" class="col-md-11 ms-2 me-2 rounded">
+            <!--<h2 class="titulo2">Agregar Plato</h2>
+            <form id="formularioNuevo">
+                <div class="row">
+                    <div class="col-md-5 mt-2 ms-2 mb-2 me-2">
+                    <input type="text" class="form-control" placeholder="Nombre del plato" required>
+                    </div>
+                    <div class="col-md-5 mt-2 ms-2 mb-2 me-2">
+                        <input type="text" class="form-control" placeholder="Ingredientes (separado por ,)" required>
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 mt-2 ms-2 mb-2 me-2">
+                        <select id="seleccionTipo" class="form-select" required>
+                            <option value="">Seleccione un tipo de plato</option>
+                            <option value="entrada">Entrada</option>
+                            <option value="principal">Principal</option>
+                            <option value="postre">Postre</option>
+                          </select>
+                    </div>
+                    <div class="col-md-5 mt-2 ms-2 mb-2 me-2">
+                        <input type="number" class="form-control" placeholder="Precio en ARS" required>
+                        </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-1 mt-2 ms-2 mb-2 me-2">
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                    </div>
+                    <div class="col-md-1 mt-2 ms-2 mb-2 me-2">
+                        <button type="submit" class="btn btn-danger">Eliminar</button>
+                        </div>
+                </div>
+            </form>-->
+        </div>
+        <div id="admin-container"></div>
+
+           <!-- <div class="col-md-3 ms-2 ">
+                <div class="card mt-3 ml-2">
+                    <img src="fondoMenu2.jpg" class="card-img-top" alt="...">
+                   <div class="card-body">
+                       <h5 class="card-title">Card title</h5>
+                       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                       <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                   </div>
+               </div>
+            </div>-->
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
