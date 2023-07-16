@@ -18,6 +18,13 @@ body {
 
 #form-container {
     background-color: rgb(190, 187, 187);
+    float: left;
+    
+}
+
+#platos-container {
+    display: block;
+    float: left;
     
 }
 
