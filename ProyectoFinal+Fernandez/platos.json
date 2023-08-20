@@ -1,0 +1,53 @@
+[
+  {
+    "nombre": "Ensalada de frutas",
+    "precio": 900,
+    "ingredientes": [
+      { "nombre": "manzana" },
+      { "nombre": "naranja" },
+      { "nombre": "plátano" }
+    ],
+    "tipo": "Postre"
+  },
+  {
+    "nombre": "Ribeye",
+    "precio": 2800,
+    "ingredientes": [
+      { "nombre": "Ojo de bife" },
+      { "nombre": "Pure de papa" },
+      { "nombre": "Coleslaw" }
+    ],
+    "tipo": "Carnes"
+  },
+  {
+    "nombre": "Strip",
+    "precio": 3500,
+    "ingredientes": [
+      { "nombre": "Bife de chorizo" },
+      { "nombre": "Pure de papa" },
+      { "nombre": "Caesar" }
+    ],
+    "tipo": "Carnes"
+  },
+  {
+    "nombre": "Bastones de Muzza",
+    "precio": 1800,
+    "ingredientes": [
+      { "nombre": "Muzzarela robozada" },
+      { "nombre": "Dip de BBQ" },
+      { "nombre": "Dip de aleoli" }
+    ],
+    "tipo": "Entrada"
+  },
+  {
+    "nombre": "Ribs",
+    "precio": 3600,
+    "ingredientes": [
+      { "nombre": "Costillar de cerdo" },
+      { "nombre": "Salsa BBQ" },
+      { "nombre": "Coleslaw" },
+      { "nombre": "fritas" }
+    ],
+    "tipo": "Entrada"
+  }
+]

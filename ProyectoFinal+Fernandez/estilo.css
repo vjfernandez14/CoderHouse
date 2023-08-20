@@ -1,0 +1,53 @@
+header {
+    background-color: darkred;
+    height: 100px;
+}
+
+body {
+    background-image: url(imagenes/fondoMenu3.jpg);
+}
+
+.card {
+    display: block;
+    float: left;
+}
+
+.titulo2 {
+    margin-left: 10px;
+}
+
+#form-container {
+    background-color: rgba(0, 0, 0, 0.589);
+    float: left;
+    
+}
+
+#form-container h2 {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+#platos-container {
+    display: block;
+    float: left;
+    
+}
+
+.toastifyDanger {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,0.9612068965517241) 16%, rgba(252,176,69,1) 100%);
+}
+
+.toastifyMod {
+    background: rgb(199, 148, 10);
+}
+
+#inicio-container h5 {
+    background-color: rgba(0, 0, 0, 0.651);
+    font-size: xx-large;
+}
+
+#inicio-container p {
+    background-color: rgba(0, 0, 0, 0.651);
+    color: darkgoldenrod;
+}
